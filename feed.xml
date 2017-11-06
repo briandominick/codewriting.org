@@ -1,1 +1,224 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4004/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4004/" rel="alternate" type="text/html" /><updated>2017-11-05T22:56:01-05:00</updated><id>http://localhost:4004/</id><title type="html">Codewriting</title></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4004/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4004/" rel="alternate" type="text/html" /><updated>2017-11-06T13:11:28-05:00</updated><id>http://localhost:4004/</id><title type="html">Codewriting</title><subtitle>The website and blog of the Codewriting documentation project.</subtitle><entry><title type="html">Asciidoctor, Jekyll, and Hyde for Elegant Docs out of the Box</title><link href="http://localhost:4004/blog-asciidoctor-jekyll-hyde-docs-out-of-the-box" rel="alternate" type="text/html" title="Asciidoctor, Jekyll, and Hyde for Elegant Docs out of the Box" /><published>2017-11-06T13:27:00-05:00</published><updated>2017-11-06T13:27:00-05:00</updated><id>http://localhost:4004/asciidoctor-jekyll-hyde</id><content type="html" xml:base="http://localhost:4004/blog-asciidoctor-jekyll-hyde-docs-out-of-the-box">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I swear I don&amp;#8217;t just love this stack because of the title it gives me.
+I do admit “Hyde” wouldn&amp;#8217;t have made it into the title if it didn&amp;#8217;t just sound so good, but it&amp;#8217;s also a nice theme, as you can see.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In any case, that&amp;#8217;s what&amp;#8217;s under the hood of this site.
+All pages and posts are written in &lt;a href=&quot;http://asciidoctor.org/docs/what-is-asciidoc/&quot;&gt;AsciiDoc&lt;/a&gt; dynamic markup, converted to HTML by the &lt;a href=&quot;http://asciidoctor.org/docs/what-is-asciidoctor/&quot;&gt;Asciidoctor&lt;/a&gt; rendering engine, built into a proper site by &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; static generator with a lightweight theme called &lt;a href=&quot;http://hyde.getpoole.com/&quot;&gt;Hyde&lt;/a&gt; giving the pages structure and style.
+Then served on &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I&amp;#8217;ve been working with Jekyll and Asciidoctor for well over a year now, and I am confident that they are robust, pliable utilities that can solve a very wide range of technical documentation problems.
+This is especially true when you consider the broad range of Asciidoctor output.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In this blog, I will journal some of my technical experiments in documentation tooling, much of it around Asciidoctor and my own free and open source tool, &lt;a href=&quot;https://github.com/briandominick/liquidoc&quot;&gt;LiquiDoc&lt;/a&gt;.
+All of this tooling is FOSS, and it&amp;#8217;s all written in Ruby, which I started learning some months back in order to hack a complex docs build toolchains.
+Now I&amp;#8217;m looking for new projects and challenges, which i hope to trace here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Not that I&amp;#8217;m hacking or extending it, the other major tool all of this depends on is Git&amp;#8201;&amp;#8212;&amp;#8201;also sourced in Ruby.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;If you&amp;#8217;re a technical documentarian of any kind, consider checking out my book &lt;em&gt;Codewriting&lt;/em&gt;.
+I&amp;#8217;ve set up an &lt;a href=&quot;/blog-feed.xml&quot;&gt;RSS feed&lt;/a&gt;, and I&amp;#8217;ll be posting links on my nascent Twitter account (&lt;a href=&quot;https://twitter.com/_codewriter&quot;&gt;@_codewriter&lt;/a&gt;) as soon as I get my shit together.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Brian Dominick</name></author></entry><entry><title type="html">Types of User Interface: A Documentarian’s Take</title><link href="http://localhost:4004/blog-interface-types-documentarians-take" rel="alternate" type="text/html" title="Types of User Interface: A Documentarian&amp;#8217;s Take" /><published>2017-10-29T13:27:00-04:00</published><updated>2017-10-29T13:27:00-04:00</updated><id>http://localhost:4004/interface-types</id><content type="html" xml:base="http://localhost:4004/blog-interface-types-documentarians-take">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;By my count, there are seven major types of user interfaces (UI) that developers make and tech writers document.
+I have found a few lists of computer interface types, most of them paltry.
+None speaks from a documentarian&amp;#8217;s point of view, but lack of coverage has never meant something is not actually important to do technical writers.
+We&amp;#8217;re often just too busy writing about our products to stop and explore just how we do that.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Nevertheless, at risk of stirring up controversy, let me take a stab:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;command-line interfaces (CLI)&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;includes multi-line editors in non-GUI systems&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;form-fill interfaces (FFI)&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;includes wizards and dialogs&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;graphical user interfaces (GUI)&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;operating systems, video games, and most other mixed-interface systems&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;augmented reality interfaces (AR)&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;screens that overlay real-world visualization with text, symbols, and interactive elements&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;application programming interfaces (API)&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;protocols and tooling for developers to interact with and extend a product or programming language, including integrated development environments (IDE) and software developer kits (SDK)&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;natural language user interfaces (LUI)&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;UIs that accept language commands, includes conversational interfaces like Siri and Alexa, as well as chatbots&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;virtual reality (VR)&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;immersive experiences intended to maximize and naturalize the interface while minimizing interference from conventional UI elements&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;You may be tempted to add to these top-level categories&amp;#8201;&amp;#8212;&amp;#8201;and the &lt;a href=&quot;https://en.wikipedia.org/wiki/User_interface&quot;&gt;Wikipedia article&lt;/a&gt; would encourage this&amp;#8201;&amp;#8212;&amp;#8201;but I challenge you to help me &lt;em&gt;merge and reduce&lt;/em&gt;, if possible.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Some might say FFIs are a sub-category of GUIs, but I think they&amp;#8217;re different enough to instruct, and both so terribly common, the distinction is significant.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Are augmented reality and virtual reality in the same category&amp;#8201;&amp;#8212;&amp;#8201;reality-based interfaces?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I don&amp;#8217;t know why I find this taxonomy comforting, but it helps me to approach each type of interface with its particular attributes front of mind.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock note&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;HELP WANTED&lt;/div&gt;
+&lt;em&gt;Codewriting&lt;/em&gt; explores the first four types of UI, each at some length.
+I have no experience documenting the , but I would welcome insights in appropriate places from those with relevant expertise.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Interface types are often associated with audience types.
+If I&amp;#8217;m documenting a CLI, I know it&amp;#8217;s not for my father.
+In fact, if my father is the product&amp;#8217;s audience, we know a CLI is not the right interface choice.
+Aside from unforgiving syntax, the command line lacks visualization and only minimally abstracts underlying logic and routines.
+This makes the CLI a non-starter for huge swaths of less technically inclined users, as well as less frustration-inclined geeks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;While command-line interfaces are considered the most intimidating, they are by no means the most complex.
+In fact, the list of UI types above reflects my sense of the ascending order of &lt;em&gt;potential&lt;/em&gt; complexity.
+The less burdensome the interface seems, the more open-ended it is, and thus the more complicated it would be to fully capture the range of its utilization.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Imagine the potential complexity of a natural language interface.
+Most limitations of Siri and Alexa are not in the interface, but in the intelligence.
+The range of commands such systems can already distinguish make them spectacularly open ended.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Drastically more complex than any mere language-based interface is VR, which can incorporate natural language commands, kinetic interface techniques, and eventually advanced brain and neural interfaces.
+One can almost imagine VR so immersive the user cannot distinguish the digital world from the natural world.
+Such an interface would be so intuitive, in the truest sense of that term, it would be essentially impossible to document.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Or maybe the instructions could be captured in one simple command: “Act naturally.”&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;admonitionblock note&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&quot;icon&quot;&gt;
+&lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&quot;content&quot;&gt;
+This piece may wind up in the book, but it doesn&amp;#8217;t have a home there yet.
+I&amp;#8217;m copying and pasting its contents from &lt;code&gt;topics/ui-types.adoc&lt;/code&gt; directory in my codebase, where the original awaits inclusion in other docs.
+It will likely get some edits before appearing in the book or elsewhere, but the state of this entry will remain as it stood appeared when originally posted.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;</content><author><name>Brian Dominick</name></author><category term="user interfaces" /></entry><entry><title type="html">Equality of Docs and Code</title><link href="http://localhost:4004/blog-equlity-docs-code" rel="alternate" type="text/html" title="Equality of Docs and Code" /><published>2017-09-16T21:17:00-04:00</published><updated>2017-09-16T21:17:00-04:00</updated><id>http://localhost:4004/equality-docs-code</id><content type="html" xml:base="http://localhost:4004/blog-equlity-docs-code">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Think about your current product.
+Whether you have a dedicated technical writer/docs team or your developers self-document the product, which domain is considered the canonical source of truth over product features?
+Let me put it another way.
+If I asked you to be absolutely certain that the default setting of a particular configuration property is &lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;&amp;#8201;&amp;#8212;&amp;#8201;not the stated value but the actual out-of-the-box value, and not what it&amp;#8217;s supposed to be but what it actually &lt;em&gt;is&lt;/em&gt;&amp;#8201;&amp;#8212;&amp;#8201;where would you turn: the codebase or the docs?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;If your answer is, “We keep our docs in our codebase, sucker!”, you definitely earn points with me.
+But you still have not addressed the spirit of my question.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Which part of your codebase contains the canonical answer to my question about that default setting?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Here you are probably wondering if I&amp;#8217;m crazy, some megalomaniacal tech writer who doesn&amp;#8217;t even understand programming.
+Surely the answer must be &lt;em&gt;the product code&lt;/em&gt;.
+No matter which one we &lt;em&gt;consider&lt;/em&gt; the primary source, no matter how badly some tech writer might &lt;em&gt;wish&lt;/em&gt; that “the docs are always right” or some such fantasy, the product source defines the answer, and therefore it must be the prime source of truth.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;What if it doesn&amp;#8217;t need to be that way?
+There is only one way your product&amp;#8217;s backend, API, user interfaces, and documentation will all reflect the same information about every detail of your product.
+That way is to single-source all reference matter, drawing on that prime source every time you generate a dependency library, an interface, or a document&amp;#8201;&amp;#8212;&amp;#8201;basically, every time you &lt;em&gt;build&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;For developers, all this really means is self-consciously organizing “small data” related to the product in universally accessible formats such as JSON, YAML, XML, or CSV, rather than native data structures, whenever possible.
+Native structures can then be built from these prime sources at build time or runtime.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This manner of operating is more challenging for the documentation side, as currently even the more sophisticated documentation systems provide very limited support for deriving usable structured data from external sources.
+Unconventional tooling is required to generate and serve tables or pages from those cross-platform data structures, but these tools exist and are becoming accessible.
+And the benefits can be enormous.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The case I am making is that because there is no room for divergence of the product&amp;#8217;s documented behavior and its actual behavior, every human-dependent step between the product code and the generated docs is a chance for divergence.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We get it right more often with APIs, because we tend to source API docs very much within the product codebase.
+When the codebase and the interface are more directly related and less abstracted, documentation pairs nicely with its underlying code.
+There are still ways to improve overly robotic API docs, but others are tackling this subject more concertedly than I.
+(For instance, techcomm blogger/guru &lt;a href=&quot;http://idratherbewriting.com/category-api-doc/&quot;&gt;Tom Johnson is delightfully obsessed&lt;/a&gt; with API docs, as is the network &lt;a href=&quot;http://apithedocs.org/&quot;&gt;API the Docs&lt;/a&gt;.)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;For end-user-facing interfaces and docs, as well as for docs that go beyond strict reference format&amp;#8201;&amp;#8212;&amp;#8201;that is, &lt;em&gt;exceptional&lt;/em&gt; docs&amp;#8201;&amp;#8212;&amp;#8201;smarter tooling is needed to ensure currency and accuracy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It may seem like I am writing the writer out of the documentation story, but I intend no such thing.
+Managing these details is not necessarily a huge part of our job, though it is among the more perilous and tedious.
+There&amp;#8217;s a decent chance your bosses and subject matter experts already assume you have some great system or keep docs updated in your sleeps somehow.
+It&amp;#8217;s where we can be most objectively wrong, and where we are most workflow dependent, hoping that the communications between us and SMEs is bug free.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And this makes sense beyond the engineering and support teams, if you think about it.
+Not only do interfaces and instructions have to correlate to the application&amp;#8217;s existential truths, so do legal docs that explain users' legal rights and obligations pertaining to your product.
+These rules may vary depending on which version they are using, or from where they&amp;#8217;re accessing your cloud.
+End user license agreements, enterprise software service contracts, system permissions requests, and privacy policies can be extremely difficult to coordinate across jurisdictions and product versions.
+Yet it is critical that any promises made in them are perfectly consistent with their associated product version.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Is anybody drawing product data and docs content from the same data sources?
+I am eager to learn more about how this is handled at different shops, as I intend to make it a central feature of the strategy I&amp;#8217;m developing, unless I learn it is too difficult to implement in too many circumstances.
+So I&amp;#8217;d love to hear struggles as well as success stories.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Brian Dominick</name></author></entry><entry><title type="html">Codewriting launched at Write the Docs Portland</title><link href="http://localhost:4004/blog-codewriting-release" rel="alternate" type="text/html" title="Codewriting launched at Write the Docs Portland" /><published>2017-04-16T13:27:00-04:00</published><updated>2017-04-16T13:27:00-04:00</updated><id>http://localhost:4004/codewriting-release</id><content type="html" xml:base="http://localhost:4004/blog-codewriting-release">&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;After six months of writing in private, I released a draft of my book-in-progress about collaborative software documentation practices and tools during the “Writing Day” pre-conference that kicked off “Write the Docs Portland 2017”.
+I will however be finishing the book in public, hopefully with contributions from others in the field.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;em&gt;Codewriting&lt;/em&gt; is my attempt at learning in public, documenting my observations of the field and my approach to problem solving as a self-certified DocOps hacker.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;After a recent career shift, I found myself as a former developer employing a cutting-edge methodology in technical documentation, and eventually writing software to build better docs.
+Now I&amp;#8217;m excited to start sharing with the broader software development and documentation community the lessons I&amp;#8217;ve learned along the way.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;One of those lessons is to operate collaboratively and let subject-matter experts (SMEs) contribute directly to the common wisdom &lt;em&gt;in a shared source repository&lt;/em&gt;.
+In the case of &lt;em&gt;Codewriting&lt;/em&gt;, SMEs are my fellow docs hackers and tech writers solving remarkably difficult tooling, workflow, and content problems in forward-thinking ways.
+In keeping with this observation, such people are strongly encouraged to fork and contribute to the book draft I&amp;#8217;ve set forth, writing in public alongside me.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And everyone is invited to begin taking advantage of the book&amp;#8217;s content (in draft form, for now) as well as the rudimentary (alpha pre-release) build tooling used to compile the document source into PDF and HTML.
+&lt;em&gt;Codewriting&lt;/em&gt; is its own self-contained source codebase and build platform; anyone can clone or download the repo and use contained Ruby scripts to build the book from source.
+These same AsciiDoc-centric tools are featured in many of the book&amp;#8217;s lessons.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;As a former mediocre developer and modestly successful professional writer, in 2015 I found writing about a sophisticated, cutting-edge Big Data IT ops enterprise platform to be my domain.
+I was overjoyed to find myself writing &lt;a href=&quot;http://rocana.com&quot;&gt;Rocana&amp;#8217;s&lt;/a&gt; product documentation using the same principles and processes employed by the engineers writing code.
+I sit on the Engineering team as a valued contributor, and my Reference Guide source code sits in the product codebase, as valued content.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I believe this system lets me do better work with less frustration and perhaps even fewer errors.
+What&amp;#8217;s more, I think I can help teach it to programmers who want to write and maintain better docs, as well as tech writers who want to work more programmatically, perhaps in closer proximity to engineers.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Brian Dominick</name></author></entry></feed>

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4004/blog-codewriting-release</loc>
+<lastmod>2017-04-16T13:27:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4004/blog-equlity-docs-code</loc>
+<lastmod>2017-09-16T21:17:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4004/blog-interface-types-documentarians-take</loc>
+<lastmod>2017-10-29T13:27:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4004/blog-asciidoctor-jekyll-hyde-docs-out-of-the-box</loc>
+<lastmod>2017-11-06T13:27:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4004/readme</loc>
 </url>
 <url>
@@ -25,6 +41,9 @@
 <loc>http://localhost:4004/</loc>
 </url>
 <url>
+<loc>http://localhost:4004/blog.html</loc>
+</url>
+<url>
 <loc>http://localhost:4004/assets/includes/item-lists/</loc>
 </url>
 <url>
@@ -40,16 +59,19 @@
 <loc>http://localhost:4004/brian-dominick-resume</loc>
 </url>
 <url>
+<loc>http://localhost:4004/topics/ui-types/</loc>
+</url>
+<url>
 <loc>http://localhost:4004/assets/files/brian-dominick-resume.pdf</loc>
-<lastmod>2017-11-05T22:40:49-05:00</lastmod>
+<lastmod>2017-11-06T13:11:17-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4004/publish/codewriting-book-draft.html</loc>
-<lastmod>2017-11-05T22:40:49-05:00</lastmod>
+<lastmod>2017-11-06T13:11:17-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4004/publish/codewriting-book-draft.pdf</loc>
-<lastmod>2017-11-05T22:41:00-05:00</lastmod>
+<lastmod>2017-11-06T13:11:28-05:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4004/publish/web/about-site.html</loc>
