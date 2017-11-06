@@ -1,1 +1,5 @@
-= README TEST
+= codewriting.org
+
+This repository exists only as a GitHub Pages static site server.
+This codebase creates the site at link:http://codewriting.org[].
+All of the source code for this project is in link:http://github.com/briandominick/codewriting[].
