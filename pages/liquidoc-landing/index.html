@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      LiquiDoc &middot; Codewriting
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="theme/hyde/css/poole.css">
+  <link rel="stylesheet" href="theme/hyde/css/syntax.css">
+  <link rel="stylesheet" href="theme/hyde/css/hyde.css">
+  <link rel="stylesheet" href="theme/hyde/css/asciidoc.css">
+  <link rel="stylesheet" href="theme/hyde/css/custom.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface|PT+Mono">
+  <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes=/"144x144" href="public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="">
+          Codewriting
+        </a>
+      </h1>
+      <p class="lead"></p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+      <a class="sidebar-nav-item" href="codewriter-brian-dominick">About the Codewriter</a>
+      <a class="sidebar-nav-item" href="https://github.com/briandominick/codewriting">Source</a>
+      <a class="sidebar-nav-item" href="readme">README</a>
+      <a class="sidebar-nav-item" href="docops-glossary">Terminology</a>
+    </nav>
+
+    <div class="copyright">
+      &copy; 2017 <a href="codewriter-brian-dominick">Brian Dominick</a><br />
+      <a href="notice">NOTICE</a>
+    </div>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+  
+  <h1 class="page-title">LiquiDoc</h1>
+  
+  <div class="sect1">
+<h2 id="anything-in-anything-out-for-handling-docs-like-code">Anything in, anything out: for handling docs like code</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="what-if-you-could-take-this">What if you could take this:</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml"># YAML</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="and-from-it-generate-documentation">&#8230;&#8203;and from it generate documentation:</h3>
+<div class="exampleblock">
+<div class="content">
+
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="as-well-as-ui-definition">&#8230;&#8203;as well as UI definition</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-html" data-lang="html">&lt;!-- add html source --&gt;</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="and-even-validation-code">&#8230;&#8203;and even validation code</h3>
+<div class="listingblock">
+<div class="title">JSON validation code for tests and formfield validation</div>
+<div class="content">
+<pre class="highlight"><code class="language-json" data-lang="json"></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="liquidoc-is-a-framework-and-utility-for-true-single-sourced-engineering">LiquiDoc is a framework and utility for true single-sourced engineering</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>From source to interface to docs, your product and what you say about it can finally be consistent.</p>
+</div>
+<div class="sect2">
+<h3 id="liquidoc-is-free-and-open-source-software">LiquiDoc is free and open source software</h3>
+<div class="paragraph">
+<p>To do our work right, technical documentarians need tools that integrate their workflow with that of product developing.
+Whether you&#8217;re a tech writer on a big team or a self-documenting lone-wolf programmer, you appreciate how difficult it is to keep a product&#8217;s front and back ends consistent&#8201;&#8212;&#8201;let alone keeping the docs up to date.</p>
+</div>
+<div class="paragraph">
+<p>The key to consistency is maintaining a single source of truth.
+Complex product data and content is unsafe outside the code repository.
+It&#8217;s bad enough that coders reference disconnected specification sources while working on API endpoints, configuration settings, primary interface elements, and discrete features.
+Unit tests need to be written or updated.
+The UI needs to be updated.
+Once all that code is complete, that coder or someone altogether different has to write it all up as “the docs” in still another format.</p>
+</div>
+<div class="paragraph">
+<p><em>*Enough of this insanity!*</em></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="the-end-of-divergence">The End of Divergence!</h3>
+<div class="paragraph">
+<p>It&#8217;s time to keep all your crucial product info as semi-structured data, right alongside your product code <em>and</em> the rest of your docs.
+LiquiDoc enables truly <strong>treating documentation like source code</strong>: write in dynamic lightweight markup langauges such as AsciiDoc and YAML, then generating content where and when it is needed, as well as directly informing the product.
+At long last, canonical product source where it belongs&#8201;&#8212;&#8201;<em>in the docs directory</em>&#8201;&#8212;&#8201;and always up to date.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="getting-started-with-liquidoc">Getting started with LiquiDoc</h3>
+<div class="paragraph">
+<p>LiquDoc is a Ruby gem.
+The fastest way to get up to speed is with codewriting.org&#8217;s LiquiDoc Boilerplate project.
+On Mac or Linux, you should be good to go.
+If you&#8217;re using Windows and lack Ruby, get it here.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Clone or download and unzip the <a href="https://github.com/briandominick/github-boilerplate">Boilerplate repo</a>.</p>
+</li>
+<li>
+<p>Open a terminal to the project directory and run:</p>
+<div class="listingblock">
+<div class="content">
+<pre>bundle install</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If it turns out you don&#8217;t have Bundler, run <code>gem install bundler</code></p>
+</div>
+</li>
+<li>
+<p>You should be ready for your first LiquiDoc build.</p>
+<div class="listingblock">
+<div class="content">
+<pre>bundle exec liquidoc -c _data/sample.yml` --verbose</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This procedure draws data from files in various semi-structured data formats (YAML, JSON, XML, CSV) and builds multiple documents in different output formats.
+Examine <code>_data/sample.yml</code> to see all the source, template, and output configurations.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+
+  </body>
+</html>

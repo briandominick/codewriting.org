@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Codewriting: Collaborative Documentation Ops for the Agile Age &middot; Codewriting
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="theme/hyde/css/poole.css">
+  <link rel="stylesheet" href="theme/hyde/css/syntax.css">
+  <link rel="stylesheet" href="theme/hyde/css/hyde.css">
+  <link rel="stylesheet" href="theme/hyde/css/asciidoc.css">
+  <link rel="stylesheet" href="theme/hyde/css/custom.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface|PT+Mono">
+  <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes=/"144x144" href="public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="">
+          Codewriting
+        </a>
+      </h1>
+      <p class="lead"></p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+      <a class="sidebar-nav-item" href="codewriter-brian-dominick">About the Codewriter</a>
+      <a class="sidebar-nav-item" href="https://github.com/briandominick/codewriting">Source</a>
+      <a class="sidebar-nav-item" href="readme">README</a>
+      <a class="sidebar-nav-item" href="docops-glossary">Terminology</a>
+    </nav>
+
+    <div class="copyright">
+      &copy; 2017 <a href="codewriter-brian-dominick">Brian Dominick</a><br />
+      <a href="notice">NOTICE</a>
+    </div>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="page">
+  
+  <h1 class="page-title">Codewriting: Collaborative Documentation Ops for the Agile Age</h1>
+  
+  <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><em>Codewriting</em> is an open, hopefully collaborative writing project to document current best practices and forward thinking in the field of technical communications, specifically documentation for software projects.</p>
+</div>
+<div class="paragraph">
+<p>A manual for establishing optimal documentation environments, <em>Codewriting</em> explores the “docs-as-code” or “DocOps” approach to documenting and instructing software.
+This iteratively written, open-source volume explores the unconventional strategies in use by many of today&#8217;s hottest startups and teams at several tech-industry stalwarts.</p>
+</div>
+<div class="paragraph">
+<p>As a living, collaborative document, <em>Codewriting</em> employs many of the techniques it teaches&#8201;&#8212;&#8201;written in lightweight markup, this book&#8217;s codebase (its text) can be forked and modified by anyone for any reason other than direct profit (<a href="#creative-commons">see the Creative Commons ShareAlike license</a>).</p>
+</div>
+<div class="paragraph">
+<p><em>Codewriting</em> is for the tech writer and engineer alike, and it covers systems that involve everyone in the development circle, such as DevOps, project management, quality assurance, and product ownership.
+Coders and writers will find advice for integrating the others' skills and tools for building better docs, as well as improved collaboration around docs and interfaces, user- and developer-facing alike.
+From writing and docs-planning techniques to blending the product&#8217;s build and content source, <em>Codewriting</em> is about upgrading how we communicate the products we make.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="repo">Repo</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The <code>briandominick/codewriting</code> repo contains much more than just the <em>Codewriting</em> book source.
+This is also the home of <a href="http://codewriting.org/">codewriting.org</a>, which includes a blog and informational pages about DocOps tools and techniques.
+All of this is built from a fairly robust codebase mixing mostly YAML and AsciiDoc files, configured to be processed by powerful build/publish tools.
+This repo can serve as a framework on which to base your own site with a self-contained build operation for turning complex source and data into a professional web presence, all using free, open source tools.
+Please, be my guest, and modify to your heart&#8217;s content.</p>
+</div>
+<div class="paragraph">
+<p>These tools include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://https://jekyllrb.com/">Jekyll</a>, a popular static site generator</p>
+</li>
+<li>
+<p><a href="http://asciidoctor.org/">Asciidoctor</a> parsing engine for AsciiDoc files</p>
+</li>
+<li>
+<p><a href="http://github.com/briandominick/liquidoc-gem/">LiquiDoc</a>, my own tool, which I use for preprocessing YAML data and configuring complicated build procedures</p>
+</li>
+<li>
+<p><a href="https://git-scm.com/">Git</a>&#8201;&#8212;&#8201;if you don&#8217;t know it yet, the time has come</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="title">Do Not Be Intimidated</div>
+All of these tools happen to be written in Ruby and run in a Ruby environment using each tool&#8217;s built-in command-line interface.
+You do not have to know Ruby to use these tools.
+They will help you become comfortable using your system&#8217;s terminal command line interface.
+If you want to learn more about how these tools work, we&#8217;ll be exploring LiquiDoc, Jekyll, and several tools from the Asciidoctor ecosystem, as well as many others, all in these pages.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="build">Build</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The book and website are written in lightweight markup languages.
+That means content starts as source code, which must be <em>compiled</em> to a cohesive document in a friendlier format for reading.
+<strong>If you try merely reading it as file pages on GitHub, you&#8217;ll be missing a lot</strong>, even though GitHub plays somewhat nice with AsciiDoc.</p>
+</div>
+<div class="paragraph">
+<p><em>Codewriting</em> is totally free, and the latest public draft will always be made available here&#8201;&#8212;&#8201;all you have to do is “pull” the source repository and run a simple command to build a 1-page HTML page or PDF document.
+Here is how.</p>
+</div>
+<div class="paragraph">
+<p>In order to operate the publishing tool included in this repo, you&#8217;ll need Ruby.
+If you&#8217;re on a <strong>Mac OSX or Linux</strong> system, you likely have an appropriate version of Ruby installed.</p>
+</div>
+<div class="paragraph">
+<p>For <strong>Windows</strong>, download and run <a href="http://rubyinstaller.org/">RubyInstaller</a>.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="title">Git FTW</div>
+<div class="paragraph">
+<p>To really engage with this book, you will want to use Git.
+To set up Git, go to the <a href="https://git-scm.com/downloads">Git downloads page</a> and select your operating system.</p>
+</div>
+<div class="paragraph">
+<p>If you are brand new to Git, check out <a href="https://try.github.io/levels/1/challenges/1">GitHub&#8217;s Try Git tutorial</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The last tool you need is your preferred <strong>terminal/command prompt</strong> (<a href="https://www.lifewire.com/how-to-open-command-prompt-2618089">Windows instructions</a>, <a href="http://www.wikihow.com/Get-to-the-Command-Line-on-a-Mac">Mac instructions</a>).</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>In the terminal, navigate to a workspace directory.</p>
+<div class="listingblock">
+<div class="title">Example (any directory will do)</div>
+<div class="content">
+<pre>cd Documents/workspace</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Clone this repo.</p>
+<div class="listingblock">
+<div class="content">
+<pre>git clone git@github.com:briandominick/codewriting.git</pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+If you don&#8217;t wish to run Git and clone the repo, you can always download and unzip <a href="https://github.com/briandominick/codewriting/archive/master.zip">the archive of this repo</a> anywhere on your hard drive, then continue these instructions.
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Change directory to the repo.</p>
+<div class="listingblock">
+<div class="content">
+<pre>cd codewriting</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Run Bundler&#8217;s install command to establish local Ruby gem dependencies.</p>
+<div class="listingblock">
+<div class="content">
+<pre>bundle install</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If Bundler is not installed, run <code>gem install bundler</code>, then repeat this step.
+Bundler is a package manager for Ruby gems; it will ensure you always have the right dependencies installed.</p>
+</div>
+</li>
+<li>
+<p>Build the book in PDF and HTML, as well as the site and my resumé.</p>
+<div class="listingblock">
+<div class="content">
+<pre>bundle exec liquidoc -c _configs/build-global.yml</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Now you can open <code>_build/publish/codewriting-book-draft.html</code> in your preferred browser or open <code>_build/publish/codewriting-book-draft.pdf</code> in your favorite PDF viewer.
+Please give this latest draft a read and let me know what you think!
+The other contents of <code>_build/</code> are yours to peruse.
+Also check out the files in <code>_config/</code>, <code>_data/</code>, and <code>_templates/</code>, as well as all the AsciiDoc files in <code>book-cw/</code>.</p>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>To learn more about the build tool, explore the files in the <a href="https://github.com/briandominick/liquidoc-gem">LiquiDoc</a> repo!
+This is my first ever Ruby scripting project; it&#8217;s not terribly complex, and there&#8217;s lots more to come.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>To keep updated, <a href="https://github.com/briandominick/codewriting/subscription">follow this repo on GitHub</a>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+For more about the build scripts and the overall framework (what goes where), see <a href="#framework-and-build">Framework and Build</a> below.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="contribute">Contribute</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>All proposed edits and additions are eagerly welcomed.</strong></p>
+</div>
+<div class="sect2">
+<h3 id="what-to-contribute">What to Contribute</h3>
+<div class="paragraph">
+<p>Here are some forms of content contributions I would love to receive:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">quotations</dt>
+<dd>
+<p>Quote yourself as if I interviewed you for three hours and kept some of your best advice.
+Write yourself right into the text, either with an outright quote or a paraphrase.</p>
+</dd>
+<dt class="hdlist1">guest blocks</dt>
+<dd>
+<p>Make a text block that conveys your commentary on a topic, in context.</p>
+</dd>
+</dl>
+</div>
+</div>
+<div class="sect2">
+<h3 id="guest-block-syntax-guidance">Guest Block Syntax &amp; Guidance</h3>
+<div class="paragraph">
+<p>The two main types of block contributions are admonition blocks (either generic or branded) and guest sidebars, for longer prose.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">admonition block</dt>
+<dd>
+<div class="openblock">
+<div class="content">
+<div class="paragraph">
+<p>You can either author a generic admonition, to be credited in the Acknowledgements and the Git repo, or you can brand an admonition with your name (or GH username) and mug.
+Admonition blocks should be kept to one short paragraph, at most.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">generic admonition</dt>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-asciidoc" data-lang="asciidoc">[TIP]
+Here is my opinion about this topic.</code></pre>
+</div>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">branded admonition</dt>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-asciidoc" data-lang="asciidoc">[BRANDED.yourGHusername]
+I'll make this do something cool by the time we “go to press”.</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In this case, also place a 150x150 pixel PNG file to use as an avatar for you.
+Make it your headshot or a caricature or some symbol you want to rep your mug.
+Name it <code>yourGHusername.png</code> and place it in <code>book-cw/images/avatars</code>.</p>
+</div>
+</div>
+</div>
+</dd>
+<dt class="hdlist1">guest sidebar</dt>
+<dd>
+<p>Make a sidebar for multi-paragraph contributions.</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-asciidoc" data-lang="asciidoc">[guest_contribution]
+.Your Sidebar's Clever Title
+****
+Here is the text of your sidebar.
+Keep it witty, and remember to use one-sentence-per-line and other styles from the Style Guide.
+
+You can use paragraphing, images, tables, and so forth.
+Just keep it tidy, witty, and informative.
+
+-- Tag Yourself (link:https://twitter.com/@memememe[memememe])
+****</code></pre>
+</div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>To make these items most modular, it is best that you contribute them in their own <code>filename.adoc</code> file.
+Your pull request is welcome to also incporporate the <code>include::filename.adoc[]</code> macro in the place you think your content best fits.
+Otherwise, it&#8217;s fine to leave it for me to suggest a placement.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="how-to-contribute">How to Contribute</h3>
+<div class="paragraph">
+<p>Here are the technical steps to contributing.
+If you don&#8217;t know how to use Git or AsciiDoc yet, you may wish to <strong>read the book before trying to contribute</strong>.
+In fact, that&#8217;s a good general recommendation, so you don&#8217;t duplicate something that&#8217;s already included, and so you can enhance existing content&#8201;&#8212;&#8201;even by contradicting it sensibly.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Fork the GitHub repo.</p>
+<div class="imageblock">
+<div class="content">
+<img src="screenshot_fork-this-repo.png" alt="screenshot fork this repo" width="260">
+</div>
+</div>
+</li>
+<li>
+<p>Create a branch.</p>
+<div class="paragraph">
+<p>If you clone your newly forked repo to your local machine (similarly to the procedure for cloning <em>this</em> repo, above), use <code>git checkout -b new-branch</code>, where <code>new-branch</code> is a descriptive name for your contribution (e.g., <code>sidebar-hacking</code>).</p>
+</div>
+</li>
+<li>
+<p>Edit the appropriate AsciiDoc file, or create and properly include a new one.</p>
+</li>
+<li>
+<p>Build locally to make sure your contribution builds as both PDF and HTML.</p>
+</li>
+<li>
+<p>Issue a pull request to my repo.<br>
+<a href="https://github.com/briandominick/codewriting" class="bare">https://github.com/briandominick/codewriting</a></p>
+</li>
+<li>
+<p>I&#8217;ll review your contribution and respond to it as soon as I can.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+If you wish to propose a contribution before you start writing/coding, create an Issue and label it <code>proposal</code>.
+I&#8217;ll review it and let you know what I think.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="editorial-process">Editorial Process</h3>
+<div class="paragraph">
+<p>Only once we&#8217;re both happy with the final state of a proposed change will I incorporate any of your work, and all contributors will be prominently credited, as well as remain in the git log for all eternity.
+One of the commits in your first PR should add yourself to the appropriate contributors' list in <code>book-cw/frontmatter/acknowledgements.adoc</code>.</p>
+</div>
+<div class="paragraph">
+<p>I do reserve the right to include lessons from your contributions even if we cannot agree on the specific final text; any particular ideas reflected will be duly credited.
+As a journalist in my past life, I was fanatical about attribution, accuracy, and integrity in news media.
+As evidence, I submit  <a href="http://newstandardnews.net/contributors/handbook_v2.0.pdf">this journalism guide</a>) I helped write.
+I assure you I take proper representation and credit very seriously.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="plans-for-codewriting">Plans for Codewriting</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Words!</dt>
+<dd>
+<p>Lots more content coming, across several chapters</p>
+</dd>
+<dt class="hdlist1">Slides!</dt>
+<dd>
+<p>I want to make a bulleted summary of each chapter/section as a “slide”, which can be included in each section as well as compiled into a slide deck for presentations.
+I hope others will modify them to their liking and make use of them spreading the word about DocOps!</p>
+</dd>
+<dt class="hdlist1">Exercises</dt>
+<dd>
+<p>I am working on a narrative about a docs-focused startup that hires the reader as Employee #3.
+Hijinks ensue.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="framework-and-build">Framework and Build</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Here are some notes on what goes where and how it&#8217;s all built.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-yaml" data-lang="yaml">_data: <i class="conum" data-value="1"></i><b>(1)</b>
+  glossary.yml
+_layouts: <i class="conum" data-value="2"></i><b>(2)</b>
+assets: <i class="conum" data-value="3"></i><b>(3)</b>
+  images:
+  includes:
+book-cw: <i class="conum" data-value="4"></i><b>(4)</b>
+  index-book-cw.adoc <i class="conum" data-value="5"></i><b>(5)</b>
+  _data: <i class="conum" data-value="6"></i><b>(6)</b>
+    bibliography.yml
+  includes: <i class="conum" data-value="7"></i><b>(7)</b>
+  content-directories:
+presentations: <i class="conum" data-value="8"></i><b>(8)</b>
+scripts: <i class="conum" data-value="9"></i><b>(9)</b>
+  liquidoxify.rb
+  publish.rb
+theme: <i class="conum" data-value="10"></i><b>(10)</b>
+  fonts:
+  pdf-theme.yml
+Gemfile <i class="conum" data-value="11"></i><b>(11)</b>
+README.adoc <i class="conum" data-value="12"></i><b>(12)</b></code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>Global data source files, not specific to Codewriting book</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="2"></i><b>2</b></td>
+<td>Liquid templates for mapping data to variables in precompiled files</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="3"></i><b>3</b></td>
+<td>Images, AsciiDoc includes, and other content used directly in output, possibly for multiple documents</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="4"></i><b>4</b></td>
+<td>Book content files; everything that goes <em>in</em> the book</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="5"></i><b>5</b></td>
+<td>Build configurations for the book&#8217;s precompiled source files</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="6"></i><b>6</b></td>
+<td>Data source files for the book, for building complex content</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="7"></i><b>7</b></td>
+<td>Discrete content files (topics, source samples, etc)</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="8"></i><b>8</b></td>
+<td>Source for slide decks (bit of a mess at the moment)</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="9"></i><b>9</b></td>
+<td>The build scripts (<code>publish.rb</code> and <code>liquidoxify.rb</code>)</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="10"></i><b>10</b></td>
+<td>Files used to style output; hopefully these will evolve to consolidate across media</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="11"></i><b>11</b></td>
+<td>The project&#8217;s Ruby dependency collection</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="12"></i><b>12</b></td>
+<td>Whoa, that&#8217;s like, this file&#8230;&#8203;</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="legal-stuff">Legal Stuff</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The Codewriting codebase is covered by the "Creative Commons ShareAlike 3.0 Unported" license, except as noted in the link:NOTICE of third-party software dependencies.
+You are encouraged to copy and modify this content for your own purposes; just please link back to <a href="http://codewriting.org/">codewriting.org</a>.
+For details, see <a href="https://github.com/briandominick/codewriting/blob/master/LICENSE.md"><code>LICENSE.md</code></a> for full details and complete license text.</p>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+
+  </body>
+</html>
