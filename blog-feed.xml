@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>$title - Articles</title>
+		<description>The website and blog of the Codewriting documentation project.</description>
+		<link>http://localhost:4004</link>
+		<atom:link href="http://localhost:4004/pages/blog-feed.xml" rel="self" type="application/rss+xml" />
+		<lastBuildDate>Mon, 06 Nov 2017 13:27:00 -0500</lastBuildDate>
+		
+			
+			<item>
+				<title>Asciidoctor, Jekyll, and Hyde for Elegant Docs out of the Box</title>
+				
+					<description></description>
+				
+				<pubDate>Mon, 06 Nov 2017 13:27:00 -0500</pubDate>
+				<link>http://localhost:4004/blog-asciidoctor-jekyll-hyde-docs-out-of-the-box</link>
+				<guid isPermaLink="true">http://localhost:4004/blog-asciidoctor-jekyll-hyde-docs-out-of-the-box</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Types of User Interface: A Documentarian&amp;#8217;s Take</title>
+				
+					<description></description>
+				
+				<pubDate>Sun, 29 Oct 2017 13:27:00 -0400</pubDate>
+				<link>http://localhost:4004/blog-interface-types-documentarians-take</link>
+				<guid isPermaLink="true">http://localhost:4004/blog-interface-types-documentarians-take</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Equality of Docs and Code</title>
+				
+					<description></description>
+				
+				<pubDate>Sat, 16 Sep 2017 21:17:00 -0400</pubDate>
+				<link>http://localhost:4004/blog-equlity-docs-code</link>
+				<guid isPermaLink="true">http://localhost:4004/blog-equlity-docs-code</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Codewriting launched at Write the Docs Portland</title>
+				
+					<description></description>
+				
+				<pubDate>Sun, 16 Apr 2017 13:27:00 -0400</pubDate>
+				<link>http://localhost:4004/blog-codewriting-release</link>
+				<guid isPermaLink="true">http://localhost:4004/blog-codewriting-release</guid>
+			</item>
+			
+		
+	</channel>
+</rss>
